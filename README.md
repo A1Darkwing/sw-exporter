@@ -1,8 +1,8 @@
 # Summoner's War Exporter Plus RTA Profile Enemies
 
-This project folked from https://github.com/Xzandro/sw-exporter plus RTA plugin
-Now you can see the profile while battle with enemies in RTA. So that, you can maximize your strategy
-Please enable RTA plugin and import the enemies's profile in https://tool.swop.one/
+This project folked from https://github.com/Xzandro/sw-exporter plus RTA plugin. 
+Now you can see the profile while battle with enemies in RTA. So that, you can maximize your strategy. 
+Please enable RTA plugin and import the enemies's profile in https://tool.swop.one/. 
 When the battle start, you can update the profile of enemies and see how rune they had and all information about HP, DEF, ATK,...
 
 ![swex](http://i.imgur.com/NQGNNaF.png)
