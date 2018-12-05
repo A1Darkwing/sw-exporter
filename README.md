@@ -1,11 +1,14 @@
-# Summoner's War Exporter
+# Summoner's War Exporter Plus RTA Profile Enemies
 
-This tool will parse intercepted data from Summoner's War and extract information on the monsters and runes of the user. It works just like SWProxy and the focus was to write a smooth proxy, that runs fast and to fix common glitches with SWPRoxy (SW starting problems, errors on event pages etc.). You can even turn on Summoners War Exporter for normal surfing, because it doesnt really influence other pages much.
+This project folked from https://github.com/Xzandro/sw-exporter plus RTA plugin
+Now you can see the profile while battle with enemies in RTA. So that, you can maximize your strategy
+Please enable RTA plugin and import the enemies's profile in https://tool.swop.one/
+When the battle start, you can update the profile of enemies and see how rune they had and all information about HP, DEF, ATK,...
 
 ![swex](http://i.imgur.com/NQGNNaF.png)
 
 ## Downloading and Installation
-1. Go to the [latest release](https://github.com/Xzandro/sw-exporter/releases/latest).
+1. Go to the [latest release](https://github.com/A1Darkwing/sw-exporter.git).
 2. Download the package for your computer OS. Windows also offers a portable version which does not require installation.
 3. Run it!
 
@@ -14,7 +17,7 @@ Further instructions are available in the Help section of Summoner's War Exporte
 ## Setting up for Development
 Install [node.js](https://nodejs.org/).
 ```
-$ git clone https://github.com/Xzandro/sw-exporter.git
+$ git clone https://github.com/A1Darkwing/sw-exporter.git
 $ npm install
 $ npm run dev
 $ npm start
