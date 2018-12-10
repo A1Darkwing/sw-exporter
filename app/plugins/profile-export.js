@@ -12,6 +12,7 @@ module.exports = {
   },
   pluginName: 'ProfileExport',
   pluginDescription: 'Exports your monster and rune data.',
+  profileName: '',
   init(proxy, config) {
     proxy.on('HubUserLogin', (req, resp) => {
       if (config.Config.Plugins[this.pluginName].enabled) {
@@ -34,6 +35,9 @@ module.exports = {
     const wizardID = resp.wizard_info.wizard_id;
     const wizardName = resp.wizard_info.wizard_name;
     const filename = sanitize(`${wizardName}-${wizardID}`).concat('.json');
+
+    this.profileName = wizardName;
+    console.log('Profile Name' + this.profileName);
 
     let outFile = fs.createWriteStream(path.join(config.Config.App.filesPath, filename), {
       flags: 'w',

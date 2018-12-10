@@ -26,7 +26,8 @@ module.exports = {
     switch (command) {
       case 'BattleRTPvPStart':
         resp.battle_info.users.forEach((user) => {
-          if (profileExport.profileName !== '') {
+          console.log(profileExport.profileName);
+          if (profileExport.profileName != '') {
             if (user.wizard_name !== profileExport.profileName) {
               enemiesList.push(this.logRTA(user.units));
             }
