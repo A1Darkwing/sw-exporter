@@ -1431,6 +1431,7 @@ module.exports = {
 
   monsterInfo: [],
 
+  // get mapping from https://swarfarm.com/api/bestiary.json
   monsterMap: [{
     "url": "https://swarfarm.com/api/bestiary/1204.json",
     "pk": 1204,
