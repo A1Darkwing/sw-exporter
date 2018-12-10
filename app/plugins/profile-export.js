@@ -37,7 +37,6 @@ module.exports = {
     const filename = sanitize(`${wizardName}-${wizardID}`).concat('.json');
 
     this.profileName = wizardName;
-    console.log('Profile Name' + this.profileName);
 
     let outFile = fs.createWriteStream(path.join(config.Config.App.filesPath, filename), {
       flags: 'w',
